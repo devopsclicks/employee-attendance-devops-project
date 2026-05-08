@@ -1,0 +1,27 @@
+# Maven
+target/
+*.jar
+*.war
+*.ear
+
+# Logs
+*.log
+
+# IDE Files
+.idea/
+*.iml
+.vscode/
+
+# OS Files
+.DS_Store
+Thumbs.db
+
+# Environment Files
+.env
+
+# Temporary Files
+*.tmp
+*.swp
+
+# Node Modules (if future frontend frameworks used)
+node_modules/
