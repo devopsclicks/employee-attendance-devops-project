@@ -76,7 +76,7 @@ Recommended:
 Example password used:
 
 ```text
-Suresh@231
+YOURPASSWORD
 ```
 
 ---
@@ -147,9 +147,9 @@ src/main/resources/application.properties
 ```properties
 server.port=8080
 
-spring.datasource.url=jdbc:mysql://localhost:3306/employeedb
+spring.datasource.url=jdbc:mysql://SERVER-IP:3306/employeedb
 spring.datasource.username=root
-spring.datasource.password=Suresh@231
+spring.datasource.password=YOUR-DB-PASSWORD
 spring.datasource.driver-class-name=com.mysql.cj.jdbc.Driver
 
 spring.jpa.hibernate.ddl-auto=update
@@ -178,7 +178,7 @@ frontend/script.js
 ## Required Content
 
 ```javascript
-const API_URL = "http://54.211.68.55:8080/api/employees";
+const API_URL = "http://SERVER-IP:8080/api/employees";
 ```
 
 ## Important
